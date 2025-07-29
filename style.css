@@ -2,13 +2,15 @@
 
 .jumbotron {
      padding-top: 7rem;
-     background-color: #F5EFE6;
+     background-color: #DED1C6;
 }
 
-
+.about {
+     background-color: #A77693;
+}
 
 #projects {
-     background-color: #F5EFE6;
+     background-color: #174871;
 
 }
 
