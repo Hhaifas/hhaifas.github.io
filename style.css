@@ -1,19 +1,83 @@
-
-
-.jumbotron {
-     padding-top: 7rem;
-     background-color: #DED1C6;
+body {
+  background: linear-gradient(180deg, #f2f3f4, #d3d1c6);
+  color: #004466;
 }
 
-.about {
-     background-color: #A77693;
+.jumbotron {
+  padding-top: 7rem;
+  background: linear-gradient(180deg, #d3d1c6, #a77693);
+  color: #004466;
+  /* background-color: #DED1C6; */
+}
+
+#life {
+  /* background: linear-gradient(180deg, #174871, #a9c4c4); */
+  background: linear-gradient(180deg, #174871, #0f2d4d);
+  color: #fff;
 }
 
 #projects {
-     background-color: #174871;
-
+  /* background-color: #174871; */
+  background: linear-gradient(180deg, #174871, #a77693);
+  color: #fff;
 }
 
+#projects .card {
+  background-color: transparent;
+  border: transparent;
+}
+
+#projects a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#projects .card-text {
+  text-align: center;
+}
+
+.card .row.g-0 {
+  align-items: center;
+}
+
+.card .col-md-4 {
+  /* Target kolom gambar */
+  max-width: 200px;
+  flex: 0 0 200px;
+}
+
+.card .col-md-4 img {
+  /* Target gambar di dalam kolom */
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: contain;
+}
+
+.card .col-md-4 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .col-md-8 {
+  /* Target kolom teks */
+  padding-left: 1rem;
+}
+
+#contact {
+  background: linear-gradient(180deg, #d3d1c6, #a77693);
+  color: #fff;
+}
+
+footer {
+  background: linear-gradient(180deg, #174871, #0f2d4d);
+}
 section {
-     padding-top: 5rem;
+  padding-top: 5rem;
+}
+
+.btn {
+  background-color: #174871;
+  border-color: #174871;
 }
